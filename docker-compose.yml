@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  # Development server (hot-reload on localhost:3000)
+  dev:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - '3000:3000'
+    environment:
+      - CHOKIDAR_USEPOLLING=true   # for reliable fs watching
+    command: sh -c "npm install && npm start"
+
+  # Production build served by nginx on localhost:8080
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8080:80'
+    depends_on:
+      - dev    # optional, to ensure build stage can run first

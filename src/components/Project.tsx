@@ -1,74 +1,191 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import aiResearchImg from '../assets/images/ai_research.png';
+import bikeNetworkImg from '../assets/images/bike_network.png';
+import examUiImg from '../assets/images/exam_ui_2.png';
+import superstoreImg from '../assets/images/superstore_dashboard.png';
+import hr from '../assets/images/hr.png';   /* HR dashboard */
+import nortwind from '../assets/images/nortwind_ER.png'; /* nortwind */
+import Ticketplatform from '../assets/images/Ticket_platform.png'; /* 5. Event Ticketing Platform */
+import Regression from '../assets/images/mock05.png';/* Multiple Regression Analysis */
 import '../assets/styles/Project.scss';
 
-function Project() {
-    return(
+function Projects() {
+  const imgStyle: React.CSSProperties = { width: '100%', maxHeight: '506px', objectFit: 'cover' };
+
+  return (
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
-        <div className="projects-grid">
-            <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+      <h1>Personal Projects</h1>
+      <div className="projects-grid">
+
+        {/* 1. AI-Assisted Code Generation Research */}
+        <div className="project">
+          <img
+            src={aiResearchImg}
+            className="zoom"
+            alt="Technical Debt in AI-Assisted Code"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>Exploring Technical Debt in AI-Assisted Code Generation</h2>
+          </a>
+          <p>
+            Deep-dive research comparing code smells and technical debt metrics
+            in AI-generated vs. human-written repositories using SonarQube and
+            PyRef—revealing maintainability challenges and refactoring patterns.
+          </p>
         </div>
+
+        {/* 2. Bike-Share Network Optimization */}
+        <div className="project">
+          <img
+            src={bikeNetworkImg}
+            className="zoom"
+            alt="Bike-Share Network Optimization"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>Bike-Share Network Optimization Analysis</h2>
+          </a>
+          <p>
+            Applied graph-theory (centrality, clustering) with Python, R, and
+            Tableau to identify critical stations and improve resource
+            allocation in Vancouver's bike-share network.
+          </p>
+        </div>
+
+        {/* 3. Exam Generation & Analysis System */}
+        <div className="project">
+          <img
+            src={examUiImg}
+            className="zoom"
+            alt="Exam Generation & Analysis UI"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>Exam Generation & Analysis System</h2>
+          </a>
+          <p>
+            Full-stack web app for creating, scanning, and analyzing OMR exams.
+            Instructors generate variants, upload results, and view detailed
+            performance analytics in real time.
+          </p>
+        </div>
+
+        {/* 4. Superstore Sales Analytics */}
+        <div className="project">
+          <img
+            src={superstoreImg}
+            className="zoom"
+            alt="Superstore Sales Analytics Dashboard"
+            style={imgStyle}
+          />
+          <a
+            href="https://github.com/RikepilB/Sales_Analysis-Python-SQL-Tableau"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Superstore Sales Analytics Dashboard</h2>
+          </a>
+          <p>
+            End-to-end BI solution using Python, SQL, and Tableau. Cleaned &
+            modeled Superstore sales data, then built a dashboard to track
+            orders, revenue, and regional performance.
+          </p>
+        </div>
+
+        {/* 5. Event Ticketing Platform */}
+        <div className="project">
+          <img
+            src={Ticketplatform}
+            className="zoom"
+            alt="Event Ticketing Platform"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>Event Ticketing Platform</h2>
+          </a>
+          <p>
+            Django + MySQL backend with REST APIs, Stripe payment integration,
+            and AWS deployment. Served as Scrum Master coordinating sprints
+            and checkout flows.
+          </p>
+        </div>
+
+        {/* 6. HR Analytics Dashboard */}
+        <div className="project">
+          <img
+            src={hr}
+            className="zoom"
+            alt="HR Analytics Dashboard"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>HR Analytics Dashboard</h2>
+          </a>
+          <p>
+            Power BI dashboard visualizing employee demographics, tenure, and
+            turnover metrics for data-driven HR decision making.
+          </p>
+          <div className="project-links">
+            <a href="https://github.com/RikepilB/HR-Analytics-Dashboard/raw/main/HR_Dashboard.pbix" 
+               target="_blank" rel="noreferrer">
+              📥 Download .pbix
+            </a>
+            <a href="https://github.com/RikepilB/HR-Analytics-Dashboard/raw/main/HR_Dashboard.pdf" 
+               target="_blank" rel="noreferrer">
+              📄 View PDF
+            </a>
+          </div>
+        </div>
+
+        {/* 7. Northwind BI Report */}
+        <div className="project">
+          <img
+            src={nortwind}
+            className="zoom"
+            alt="Northwind BI Report"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>Northwind BI Report</h2>
+          </a>
+          <p>
+            Analyzed the classic Northwind dataset in Power BI to surface sales
+            trends, inventory insights, and top-performing regions.
+          </p>
+          <div className="project-links">
+            <a href="https://github.com/RikepilB/Northwind-Analysis/raw/main/Northwind_Report.pdf" 
+               target="_blank" rel="noreferrer">
+              📄 View PDF
+            </a>
+            <a href="https://github.com/RikepilB/Northwind-Analysis/raw/main/Northwind_Report.pbix" 
+               target="_blank" rel="noreferrer">
+              📥 Download .pbix
+            </a>
+          </div>
+        </div>
+
+        {/* 8. Multiple Regression Analysis */}
+        <div className="project">
+          <img
+            src={Regression}
+            className="zoom"
+            alt="Multiple Regression Analysis"
+            style={imgStyle}
+          />
+          <a href="#" target="_blank" rel="noreferrer">
+            <h2>Multiple Regression Analysis</h2>
+          </a>
+          <p>
+            Statistical analysis project using R and Python to model relationships
+            between variables and predict outcomes with comprehensive data
+            visualization and interpretation.
+          </p>
+        </div>
+
+      </div>
     </div>
-    );
+  );
 }
 
-export default Project;
+export default Projects;

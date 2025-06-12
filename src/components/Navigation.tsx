@@ -27,7 +27,7 @@ function Navigation({parentToChild, modeChange}: any) {
   const [scrolled, setScrolled] = useState<boolean>(false);
 
   const handleDrawerToggle = () => {
-    setMobileOpen((prevState) => !prevState);
+    setMobileOpen((prevState: boolean) => !prevState);
   };
 
   useEffect(() => {

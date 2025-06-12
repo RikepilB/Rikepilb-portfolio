@@ -13,53 +13,71 @@ function Timeline() {
         <h1>Career History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            contentStyle={{ background: '#fff', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            date="Sep 2024 – Apr 2025"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Vice-President Internal</h3>
+            <h4 className="vertical-timeline-element-subtitle">Latin American Student Association</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Managed social media and coordinated with other student clubs<br />
+              Optimized event planning under union guidelines, reducing costs
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            contentStyle={{ background: '#fff', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            date="Jan 2024 – Apr 2025"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Research Assistant</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of British Columbia</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Explored technical debt in AI-assisted vs. human code using SonarQube and PyRef<br />
+              Generated insight reports on maintainability and refactoring patterns
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            contentStyle={{ background: '#fff', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            date="Aug 2023 – Apr 2025"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Customer Service Representative</h3>
+            <h4 className="vertical-timeline-element-subtitle">UBC Campus Administration</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Addressed 80+ inquiries weekly, improving satisfaction and retention<br />
+              Managed peak traffic periods, reducing service delays
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            contentStyle={{ background: '#fff', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            date="Aug 2023 – Apr 2025"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Founder</h3>
+            <h4 className="vertical-timeline-element-subtitle">Football Enthusiast Student Club</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Managed $2,500 budget; increased event attendance via strategic planning
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentStyle={{ background: '#fff', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            date="Nov 2023 – Feb 2024"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Ambassador</h3>
+            <h4 className="vertical-timeline-element-subtitle">Okanagan Tech Industry Night</h4>
+            <p>
+              Organized tech event for 200+ attendees, managing invites, sponsors, and logistics
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
