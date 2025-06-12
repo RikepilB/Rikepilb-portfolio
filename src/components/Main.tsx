@@ -40,7 +40,7 @@ function About() {
           <div className="professional-summary">
             <p
               className="summary-text"
-              style={{ fontSize: "0.12rem", lineHeight: 1.4 }}
+              style={{ fontSize: "0.94rem", lineHeight: 1.4 }}
             >
               Professional with an international perspective and interests in
               technology and finance. Proficient in Python, SQL, and
