@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rikepilb-portfolio/static/css/main.173538c5.css",
-    "main.js": "/Rikepilb-portfolio/static/js/main.f6e7bc21.js",
+    "main.js": "/Rikepilb-portfolio/static/js/main.ade3a7bd.js",
     "static/js/453.9415623e.chunk.js": "/Rikepilb-portfolio/static/js/453.9415623e.chunk.js",
     "static/media/bike_network.png": "/Rikepilb-portfolio/static/media/bike_network.df41b87259097ffd1717.png",
     "static/media/ai_research.png": "/Rikepilb-portfolio/static/media/ai_research.1b1612b07e135ab877cd.png",
@@ -16,11 +16,11 @@
     "static/media/exam_ui_2.png": "/Rikepilb-portfolio/static/media/exam_ui_2.5fcbf5683c0b6038d5ab.png",
     "index.html": "/Rikepilb-portfolio/index.html",
     "main.173538c5.css.map": "/Rikepilb-portfolio/static/css/main.173538c5.css.map",
-    "main.f6e7bc21.js.map": "/Rikepilb-portfolio/static/js/main.f6e7bc21.js.map",
+    "main.ade3a7bd.js.map": "/Rikepilb-portfolio/static/js/main.ade3a7bd.js.map",
     "453.9415623e.chunk.js.map": "/Rikepilb-portfolio/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.173538c5.css",
-    "static/js/main.f6e7bc21.js"
+    "static/js/main.ade3a7bd.js"
   ]
 }
