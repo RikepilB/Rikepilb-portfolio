@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Rikepilb-portfolio/static/css/main.173538c5.css",
+    "main.js": "/Rikepilb-portfolio/static/js/main.f6e7bc21.js",
+    "static/js/453.9415623e.chunk.js": "/Rikepilb-portfolio/static/js/453.9415623e.chunk.js",
+    "static/media/bike_network.png": "/Rikepilb-portfolio/static/media/bike_network.df41b87259097ffd1717.png",
+    "static/media/ai_research.png": "/Rikepilb-portfolio/static/media/ai_research.1b1612b07e135ab877cd.png",
+    "static/media/bg-light.png": "/Rikepilb-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock05.png": "/Rikepilb-portfolio/static/media/mock05.4faafa70d200d1519a34.png",
+    "static/media/bg-dark.png": "/Rikepilb-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/nortwind_ER.png": "/Rikepilb-portfolio/static/media/nortwind_ER.0dda908d80f166ea000f.png",
+    "static/media/Ticket_platform.png": "/Rikepilb-portfolio/static/media/Ticket_platform.a6bb326ae784670f564a.png",
+    "static/media/superstore_dashboard.png": "/Rikepilb-portfolio/static/media/superstore_dashboard.cea6e2f0206fc5d741fa.png",
+    "static/media/hr.png": "/Rikepilb-portfolio/static/media/hr.2e93ab6e71f1450f10f6.png",
+    "static/media/profileimage.png": "/Rikepilb-portfolio/static/media/profileimage.70f18d6eef41a453174a.png",
+    "static/media/exam_ui_2.png": "/Rikepilb-portfolio/static/media/exam_ui_2.5fcbf5683c0b6038d5ab.png",
+    "index.html": "/Rikepilb-portfolio/index.html",
+    "main.173538c5.css.map": "/Rikepilb-portfolio/static/css/main.173538c5.css.map",
+    "main.f6e7bc21.js.map": "/Rikepilb-portfolio/static/js/main.f6e7bc21.js.map",
+    "453.9415623e.chunk.js.map": "/Rikepilb-portfolio/static/js/453.9415623e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.173538c5.css",
+    "static/js/main.f6e7bc21.js"
+  ]
+}
