@@ -25,7 +25,7 @@ function Projects() {
             alt="Technical Debt in AI-Assisted Code"
             style={imgStyle}
           />
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://github.com/mariyaputwa/COSC-419O-Mining-Software-Repositories/tree/main" target="_blank" rel="noreferrer">
             <h2>Exploring Technical Debt in AI-Assisted Code Generation</h2>
           </a>
           <p>
@@ -33,6 +33,16 @@ function Projects() {
             in AI-generated vs. human-written repositories using SonarQube and
             PyRef—revealing maintainability challenges and refactoring patterns.
           </p>
+          <div className="project-links">
+            <a href="https://github.com/RikepilB/Rikepilb-portfolio/raw/master/Final_Report___MSR.pdf" 
+               target="_blank" rel="noreferrer">
+              📄 View Report
+            </a>
+            <a href="https://github.com/mariyaputwa/COSC-419O-Mining-Software-Repositories/tree/main" 
+               target="_blank" rel="noreferrer">
+              📁 View Repository
+            </a>
+          </div>
         </div>
 
         {/* 2. Bike-Share Network Optimization */}
@@ -43,7 +53,7 @@ function Projects() {
             alt="Bike-Share Network Optimization"
             style={imgStyle}
           />
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Sumer26/COSC_421_Project_Newtork_Science" target="_blank" rel="noreferrer">
             <h2>Bike-Share Network Optimization Analysis</h2>
           </a>
           <p>
@@ -51,6 +61,16 @@ function Projects() {
             Tableau to identify critical stations and improve resource
             allocation in Vancouver's bike-share network.
           </p>
+          <div className="project-links">
+            <a href="https://github.com/RikepilB/Rikepilb-portfolio/raw/master/COSC%20421%20Final%20Report.pdf" 
+               target="_blank" rel="noreferrer">
+              📄 View Report
+            </a>
+            <a href="https://github.com/Sumer26/COSC_421_Project_Newtork_Science" 
+               target="_blank" rel="noreferrer">
+              📁 View Repository
+            </a>
+          </div>
         </div>
 
         {/* 3. Exam Generation & Analysis System */}
@@ -127,13 +147,13 @@ function Projects() {
             turnover metrics for data-driven HR decision making.
           </p>
           <div className="project-links">
-            <a href="https://github.com/RikepilB/HR-Analytics-Dashboard/raw/main/HR_Dashboard.pbix" 
-               target="_blank" rel="noreferrer">
-              📥 Download .pbix
-            </a>
-            <a href="https://github.com/RikepilB/HR-Analytics-Dashboard/raw/main/HR_Dashboard.pdf" 
+            <a href="https://github.com/RikepilB/Rikepilb-portfolio/raw/master/HRDashboard.pdf" 
                target="_blank" rel="noreferrer">
               📄 View PDF
+            </a>
+            <a href="https://github.com/RikepilB/Rikepilb-portfolio/raw/master/HRDashboard.pbix" 
+               target="_blank" rel="noreferrer">
+              📥 Download .pbix
             </a>
           </div>
         </div>
@@ -154,11 +174,11 @@ function Projects() {
             trends, inventory insights, and top-performing regions.
           </p>
           <div className="project-links">
-            <a href="https://github.com/RikepilB/Northwind-Analysis/raw/main/Northwind_Report.pdf" 
+            <a href="https://github.com/RikepilB/Northwind-Analysis/raw/master/Northwind_Report.pdf" 
                target="_blank" rel="noreferrer">
               📄 View PDF
             </a>
-            <a href="https://github.com/RikepilB/Northwind-Analysis/raw/main/Northwind_Report.pbix" 
+            <a href="https://github.com/RikepilB/Northwind-Analysis/raw/master/Northwind_Report.pbix" 
                target="_blank" rel="noreferrer">
               📥 Download .pbix
             </a>
